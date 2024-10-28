@@ -22,6 +22,8 @@ public class Singleton {
         System.out.println("hello from singleton");
     }
 
+
+
     //another way of thread safe
     //TODO
 //    public static synchronized Singleton getInstance2() {
