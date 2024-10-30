@@ -1,2 +1,6 @@
-package ir.patterns.composite;public class Shape {
+package ir.patterns.composite;
+
+public interface Shape {
+    void move(int x, int y);
+    void draw();
 }
