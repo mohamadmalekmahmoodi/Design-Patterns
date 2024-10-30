@@ -1,2 +1,5 @@
-package ir.patterns.adapter;public class IntelligentStockDataReader {
+package ir.patterns.adapter;
+
+public interface IntelligentStockDataReader {
+    JsonData read();
 }
